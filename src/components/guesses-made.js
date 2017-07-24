@@ -1,4 +1,5 @@
 import React from 'react';
+import './guesses-made.css';
 
 export default function GuessesMade(props) {
     return (
