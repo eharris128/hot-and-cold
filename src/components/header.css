@@ -4,3 +4,8 @@ h1 {
 	padding: 0.8em;
 	color: #fff;
 }
+
+.header h1 {
+		color: #fff;
+		text-align: center;
+}
