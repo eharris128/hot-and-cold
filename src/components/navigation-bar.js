@@ -6,10 +6,10 @@ export default function NavigationBar(props) {
             <nav className="navigation-bar-nav">
                 <ul>
                     <li> 
-                        <a href="https://www.google.com/" target="_BLANK">What ?</a>
+                        <a href="https://www.google.com/" target="_BLANK" rel="noopener noreferrer">What ?</a>
                     </li>
                     <li> 
-                        <a href="https://www.google.com/" target="_BLANK">+ New Game</a>
+                        <a href="https://www.google.com/" target="_BLANK" rel="noopener noreferrer">+ New Game</a>
                     </li>
                 </ul>
             </nav>
