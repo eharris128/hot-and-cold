@@ -1,6 +1,7 @@
 import React from 'react';
+import GuessNumber from './guess-number'
 
-export default function Feedback(props) {
+export default function UserGuess(props) {
     return (
         <div className="user-guess">
             <form action="#">
@@ -9,6 +10,7 @@ export default function Feedback(props) {
                 </fieldset>
                 <button class="button" type="submit">Guess</button>
             </form>
+            <GuessNumber />
         </div>
     )
 }
