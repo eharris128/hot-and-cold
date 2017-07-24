@@ -1,5 +1,5 @@
 import React from 'react';
-import './game.css';
+import './feedback.css';
 
 export default function Feedback(props) {
     return (

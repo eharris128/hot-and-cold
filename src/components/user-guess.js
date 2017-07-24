@@ -7,7 +7,7 @@ export default function UserGuess(props) {
         <div className="user-guess">
             <form action="#">
                 <fieldset>
-                    <input aria-label="Enter your number guess" type="text" name="userGuess" id="userGuess" maxLength="3" autoComplete="off" placeholder="Enter your Guess" required></input> 
+                    <input className="text" aria-label="Enter your number guess" type="text" name="userGuess" id="userGuess" maxLength="3" autoComplete="off" placeholder="Enter your Guess" required></input> 
                 </fieldset>
                 <button className="button" type="submit">Guess</button>
             </form>
