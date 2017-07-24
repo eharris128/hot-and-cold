@@ -1,5 +1,5 @@
 import React from 'react';
-import NavigationBar from './navigation-bar';
+import Header from './header';
 import Feedback from './feedback';
 import UserGuess from './user-guess';
 import GuessesMade from './guesses-made';
@@ -7,8 +7,7 @@ import GuessesMade from './guesses-made';
 export default function Game(props) {
     return (
         <div className="game">
-            <h1>HOT or COLD</h1>
-            <NavigationBar />
+            <Header />
             <Feedback />
             <UserGuess />
             <GuessesMade />
