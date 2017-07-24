@@ -1,0 +1,38 @@
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+ul li {	
+	display: inline;
+}
+
+nav {
+	position: relative;
+	height: 10%;
+	padding: 1em;
+}
+
+li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.2em;
+}
+
+nav ul li:first-child {
+	float: left;
+}
+
+nav ul li:last-child {
+	float: right;
+}
+
+nav a {
+
+	color: #fff;
+}
