@@ -1,5 +1,6 @@
 import React from 'react';
 import GuessNumber from './guess-number'
+import './user-guess.css';
 
 export default function UserGuess(props) {
     return (

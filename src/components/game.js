@@ -3,14 +3,17 @@ import Header from './header';
 import Feedback from './feedback';
 import UserGuess from './user-guess';
 import GuessesMade from './guesses-made';
+import './game.css';
 
 export default function Game(props) {
     return (
         <div className="game">
             <Header />
-            <Feedback />
-            <UserGuess />
-            <GuessesMade />
+            <section className="game-area">
+                <Feedback />
+                <UserGuess />
+                <GuessesMade />
+            </section>
         </div>
     )
 }
